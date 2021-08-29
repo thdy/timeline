@@ -8,6 +8,7 @@ export default {
   rssUrlList: [
     'https://zenn.dev/thdy/feed',
     'https://note.com/thdy/rss',
+    'https://qiita.com/THDY/feed',
     'https://thdy.hatenablog.jp/rss',
   ],
 };
