@@ -5,7 +5,8 @@ export const HomeHero = () => {
   return (
     <div className={styles.container}>
       <img src="/icon.svg" alt="Hello" width={51} height={58} />
-      <h1 className={styles.title}>Hi, I'm Shintaro Kaku (@thdy)</h1>
+      <h1 className={styles.title}>Hi, I'm Shintaro Kaku</h1>
+      <h1 >(a.k.a thdy)</h1>
       <p className={styles.description}>
         Corporate Engineer. Currently working on{' '}
         <a href="https://hey.jp">hey, Inc.</a> <br></br>Follow{' '}
