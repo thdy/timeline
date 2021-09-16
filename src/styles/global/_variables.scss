@@ -1,4 +1,13 @@
 :root {
+  @media (prefers-color-scheme: dark) {
+    body{
+      --c-base-background: #1c1c1f;
+      --c-base-background-lighter: #292c34;
+      --c-base-text: #fff;
+      --c-gray: rgba(214, 226, 243, 0.7);
+      --c-border: rgba(115, 125, 130, 0.4);
+    }
+  }
   --c-base-background: #fff;
   --c-base-background-lighter: #bfc1ca;
   --c-base-text: #2f3033;
