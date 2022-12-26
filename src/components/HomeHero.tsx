@@ -9,7 +9,7 @@ export const HomeHero = () => {
         <h2 >Hi there 👋</h2>
         <h2 >I'm Shintaro Kaku (a.k.a thdy)</h2>
         Corporate Engineer at{' '}
-        <a href="https://hey.jp">hey, Inc.</a> <br></br>Feel free to reach out me via Twitter{' '}
+        <a href="https://st.inc">STORES, Inc.</a> <br></br>Feel free to reach out me via Twitter{' '}
         <TwitterIcon width={18} height={18} />
         <a href="https://twitter.com/thdy_jp">
           @thdy_jp
