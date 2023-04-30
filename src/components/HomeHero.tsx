@@ -4,7 +4,7 @@ import { TwitterIcon } from './TwitterIcon';
 export const HomeHero = () => {
   return (
     <div className={styles.container}>
-      <img src="/icon.svg" alt="Hello" width={51} height={58} />
+      <img src="/icon.svg" alt="Hello" width={51} height={51} />
       <p className={styles.description}>
         <h2 >Hi there 👋</h2>
         <h2 >I'm Shintaro Kaku (a.k.a thdy)</h2>
