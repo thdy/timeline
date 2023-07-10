@@ -3,7 +3,7 @@ import styles from '../styles/components/HomeHero.module.scss';
 export const HomeHero = () => {
   return (
     <div className={styles.container}>
-      <img src="/icon.svg" alt="Hello" width={80} height={80} hspace={10} />
+      <img src="/icon.svg" alt="Hello" width={80} height={80} style={{ marginRight: '10px' }} />
       <img src="/icon2.png" alt="Hello" width={80} height={80} />
       <div className={styles.description}>
         <h1>About</h1>
