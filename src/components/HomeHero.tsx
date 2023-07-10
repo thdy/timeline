@@ -9,8 +9,7 @@ export const HomeHero = () => {
         <h1>About</h1>
         <h3>Shintaro Kaku / 加来 慎太郎</h3>
         <p>
-          - Corporate Engineer at{' '}
-          <a href="https://st.inc">STORES, Inc.</a>
+          - Corporate Engineer
         </p>
         <p>
           - Remote worker in Hiroshima, Japan
