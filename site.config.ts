@@ -1,5 +1,5 @@
 export default {
-  title: "thdy's timeline",
+  title: "thdy.jp",
   description: 'personal website by thdy.',
   siteRoot:
     process.env.NODE_ENV === 'production'
