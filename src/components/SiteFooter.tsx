@@ -5,9 +5,9 @@ export const SiteFooter = () => {
   return (
     <ContentWrapper>
       <div className={styles.container}>
-        <a href="https://github.com/thdy/timeline" className={styles.link}>
-          Source code is open on GitHub
-        </a>
+        <p>
+          © 2023 thdy All rights reserved.
+        </p>
       </div>
     </ContentWrapper>
   );

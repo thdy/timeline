@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import jsonItems from '../../.items.json';
 import siteConfig from '../../site.config';
+import styles from '../styles/components/HomeHero.module.scss';
 import { ContentWrapper } from '../components/ContentWrapper';
 import { HomeHero } from '../components/HomeHero';
 import { Timeline } from '../components/Timeline';
@@ -19,6 +20,9 @@ const IndexPage = () => {
       </Head>
       <ContentWrapper>
         <HomeHero />
+        <div className={styles.description}>
+          <h1>Timeline</h1>
+        </div>
         <div>
           <Timeline items={items} />
         </div>
