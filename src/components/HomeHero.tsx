@@ -24,6 +24,9 @@ export const HomeHero = () => {
           <a href="https://twitter.com/thdy_jp">Twitter: @thdy_jp</a>
         </p>
         <p>
+          <a href="https://bsky.app/profile/thdy.jp">Bluesky</a>
+        </p>
+        <p>
           <a href="https://github.com/thdy">GitHub: @thdy</a>
         </p>
         <p>
