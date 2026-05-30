@@ -2,6 +2,9 @@
   "name": "timeline",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "run-s build:items build:next",
@@ -10,6 +13,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.3.1",
     "dayjs": "^1.10.4",
     "next": "^13.4.9",
     "react": "18.2.0",
